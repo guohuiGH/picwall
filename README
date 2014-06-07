@@ -1,10 +1,11 @@
 运行环境：
 Ubuntu 12.0.4
 配置方法：
-1.安装django
-2.安装mysql
+1.安装django 1.6.5
+2.安装mysql 5.5.22
 3.安装south
-4.进入mysql，创建数据库picwallDB
-5.运行指令:python manager.py syncdb，建立south等数据表
-6.运行指令:python manager.py schemamigrate picwall --initial以及python manager.py migrate picwall建立pciwall的数据表
-7.运行指令:python manager.py runserver 0.0.0.0:8000运行服务器
+4.安装python 2.7
+5.进入mysql，创建数据库picwallDB
+6.运行指令:python manager.py syncdb，建立south等数据表
+7.运行指令:python manager.py schemamigrate picwall --initial以及python manager.py migrate picwall建立pciwall的数据表
+8.运行指令:python manager.py runserver 0.0.0.0:8000运行服务器
